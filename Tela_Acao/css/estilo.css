@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.baki_img{
+    width: 1910px;
+}
+/* LOGO */
+.logo2 {
+    width: 57px;
+    height: 59px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* PERFIL */
+.perfil {
+    width: 40px;
+    height: 40px;
+    margin-top: 1px;
+    margin-right: 30px;
+}
+
+/* assinatura */
+.assinatura {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-right: 70px;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul.categories {
+    margin-top: -10px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+ul.categories li {
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+ul.categories li:hover {
+    color: #0FC2C0;
+}
+
+/* BARRA DE PESQUISA */
+.search-bar {
+    display: flex;
+    background-color: #111010;
+    border-radius: 90px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-right: 75px;
+}
+
+.search-bar input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 1;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #0CABA8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.categories{
+    color: white;
+}
+
+
+
+
+
+
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 800px;
+    display: block;
+}
+
+/* RODAPE */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* LOGO */
+.logo2 {
+    width: 57px;
+    height: 59px;
+    margin-top: 10px;
+}
+
+/* PERFIL */
+.perfil {
+    width: 40px;
+    height: 40px;
+    margin-top: 1px;
+    margin-right: 30px;
+}
+
+/* CAROUSEL */
+.carousel-container {
+    position: relative;
+    width: 1920px;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    font-size: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button img {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.button-container:hover button img {
+    filter: grayscale(0);
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+.indicator-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    background-color: #3d3d3d;
+    margin: 0 8px;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.active {
+    background-color: #04f8f4;
+}
+
+
+.titulo_acao{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    padding-top: 70px;
+    padding-left: 890px;
+    
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 308px;
+    margin-top: 50px;
+}
+.card-mb-1 {
+    background-color: #202020;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 9%; /* Defina a largura desejada para os cards */
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.card-mb-2 {
+    background-color: #202020;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 320px;
+    margin-top: 70px;
+    width: 9%; /* Defina a largura desejada para os cards */
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}.card-mb-3 {
+    background-color: #202020;
+    border-radius: 5px;
+    margin-left: 330px;
+    margin-top: 70px;
+    width: 9%; /* Defina a largura desejada para os cards */
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+
+}
+.ep1 {
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 0px;
+    transition: color 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+a:hover{
+    color: #777777;
+}
+.card-title:hover{
+    color: #777777;
+}
+.card-text {
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+/* RODAPE */
+
+footer {
+    background-color: #252525;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px 20px;
+}
+
+.footer-section h2 {
+    color: #008F8C;
+}
+
+.footer-section p {
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #0FC2C0;
+}
+
+.footer-section img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    color: #0FC2C0;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}

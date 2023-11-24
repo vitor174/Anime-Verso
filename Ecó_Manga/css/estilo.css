@@ -1,0 +1,209 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #333;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.baki_img{
+    width: 1910px;
+}
+/* LOGO */
+.logo2 {
+    width: 57px;
+    height: 59px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* PERFIL */
+.perfil {
+    width: 40px;
+    height: 40px;
+    margin-top: 1px;
+    margin-right: 30px;
+}
+
+/* assinatura */
+.assinatura {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-right: 70px;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.categories{
+    color: white;
+}
+ul.categories {
+    margin-top: -10px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+ul.categories li {
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+ul.categories li:hover {
+    color: #0FC2C0;
+}
+
+/* BARRA DE PESQUISA */
+.search-bar {
+    display: flex;
+    background-color: #111010;
+    border-radius: 90px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-right: 75px;
+}
+
+.search-bar input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 1;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #0CABA8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.ImgFundo {
+    position: relative;
+    text-align: center; /* Para centralizar a imagem */
+}
+.ImgFundo img {
+    height: 1537px;
+    padding-top: 124px;
+    margin-top: 470px;
+}
+.juntos {
+   
+    width: 1200px; /* Defina um tamanho máximo para a imagem */
+    height: 4000px;
+    position: absolute;
+
+    transform: translate(-50%, -50%); /* Centraliza a imagem horizontal e verticalmente */
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+    margin-top: 310px;
+}
+
+h1 {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 100px;
+}
+
+.section2 {
+    margin-top: 0px;
+}
+
+.juntos {
+    width: 1920px;
+    height: 800px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+/* RODAPE */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px 20px;
+}
+
+.footer-section h2 {
+    color: #008F8C;
+}
+
+.footer-section p {
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #0FC2C0;
+}
+
+.footer-section img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    color: #0FC2C0;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}

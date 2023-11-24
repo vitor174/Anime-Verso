@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.baki_img{
+    width: 1910px;
+}
+/* LOGO */
+.logo2 {
+    width: 57px;
+    height: 59px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* PERFIL */
+.perfil {
+    width: 40px;
+    height: 40px;
+    margin-top: 1px;
+    margin-right: 30px;
+}
+
+/* assinatura */
+.assinatura {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-right: 70px;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul.categories {
+    margin-top: -10px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+ul.categories li {
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+ul.categories li:hover {
+    color: #0FC2C0;
+}
+
+/* BARRA DE PESQUISA */
+.search-bar {
+    display: flex;
+    background-color: #111010;
+    border-radius: 90px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-right: 75px;
+}
+
+.search-bar input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 1;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #0CABA8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.categories{
+    color: white;
+}
+
+/* Você pode adicionar estilos adicionais, como cores, fontes e tamanhos, conforme desejado */
+h1{
+    padding-left: 368px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: white;
+}
+.p1{
+    padding-left: 368px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 28px;    
+}
+.anos{
+    width: 120px;
+    height: 50px;
+    margin-left: 363px;
+
+}
+.acao{
+    margin-left: 363px;
+    width: 120px;
+    height: auto;
+}
+.luta{
+    width: 105px;
+    height: auto;
+    margin-bottom: -3px;
+}
+.assistir{
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 355px;
+}
+.favorito::after {
+    content: "";
+    display: block;
+    width: 190px;
+    height: 50px;
+    background-image: url('../imgs/favorito.png');
+    background-size: cover;
+    transition: background-image 0.3s;
+}
+
+.favorito.clicked::after {
+    background-image: url('../imgs/favorito2-.png');
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+.card {
+    display: flex;
+    align-items: flex-start; /* Ajuste para alinhar os cards no topo */
+    justify-content: space-around; /* Distribui os cards uniformemente na linha */
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.card-mb-1,
+.card-mb-2,
+.card-mb-3,
+.card-mb-4,
+.card-mb-5{
+    background-color: #202020;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 6px;
+    padding-right: 25px;
+    margin-right: -100px;
+    width: 8%;
+    margin-top: 100px;
+    padding-top: 5px;
+}
+
+
+
+
+/* Restante do seu CSS permanece inalterado */
+
+.ep1 {
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+.card-title:hover {
+    color: #777777;
+}
+.card-text {
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+.card-mb-11 {
+    background-color: #202020;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 6px;
+    padding-right: 25px;
+    margin-right: 100px;
+    width: 8%;
+    margin-top: 100px;
+    padding-top: 5px;
+}
+.card-mb-12 {
+    background-color: #202020;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 6px;
+    padding-right: 25px;
+    margin-right: 1100px;
+    width: 8%;
+    margin-top: 100px;
+    padding-top: 5px;
+}
+.container_list {
+    display: flex;
+    flex-direction: column; /* Vertical list */
+    align-items: flex-start; /* Align items to the start (left) */
+    padding: 20px;
+    background-color: rgb(48, 48, 48);
+    margin: 50px 250px; /* Adjusted margin shorthand */
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    margin-bottom: 20px; /* Add margin between items */
+  }
+  .text1:hover{
+      color: rgb(116, 116, 116);
+  }
+  .container_list img {
+      max-width: 150px;
+      height: auto;
+      position: relative;
+      margin-left: -20px;
+      margin-right: 0px;
+  }
+  
+  .card-title{
+      flex: 1;
+      padding: 20px;
+      color: white;
+      font-size: 20px;
+      display: flex;
+      position: relative;
+      margin-top: -92px;
+      margin-bottom: 33px;
+      margin-left: 144px;
+      margin-right: 34px;
+      transition: color 1.0s;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  .card-title:hover{
+      color: rgb(85, 85, 85);
+  }
+  footer {
+    background-color: #252525;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px 20px;
+}
+
+.footer-section h2 {
+    color: #008F8C;
+}
+
+.footer-section p {
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #0FC2C0;
+}
+
+.footer-section img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    color: #0FC2C0;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
